@@ -29,7 +29,7 @@ def predict():
         
         return render_template('result.html', prediction=my_prediction)
 def main():
-    print("Application Starting...")
+    # print("Application Starting...")
     app.run(host='0.0.0.0', debug=True)
 
 if __name__ == '__main__':
